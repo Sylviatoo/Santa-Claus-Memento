@@ -1,5 +1,5 @@
-import Header from "../components/Header";
 import Caracters from "../components/Caracters";
+import Header from "../components/Header";
 import NavBar from "../components/NavBar";
 import "../styles/App.css";
 

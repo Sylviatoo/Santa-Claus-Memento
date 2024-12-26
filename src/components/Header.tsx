@@ -1,14 +1,13 @@
-import "/src/styles/Header.css"
+import "/src/styles/Header.css";
 import "/src/styles/App.css";
 import BGvideo from "/src/assets/images/BGvideo.mp4";
 
 interface HeaderProps {
-    img: string;
-    title: string;
-    text: string;
+  img: string;
+  title: string;
+  text: string;
 }
-export default function Header ({img, title, text}: HeaderProps){
-
+export default function Header({ img, title, text }: HeaderProps) {
   return (
     <>
       <header>
@@ -28,4 +27,3 @@ export default function Header ({img, title, text}: HeaderProps){
     </>
   );
 }
-

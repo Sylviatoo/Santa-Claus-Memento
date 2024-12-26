@@ -8,9 +8,7 @@ interface ModalProps {
   img: string;
 }
 export default function Modal({ name, job, description, img }: ModalProps) {
-
-
-    return (
+  return (
     <div className="component-modal">
       <Dialog.Root>
         <Dialog.Trigger asChild>

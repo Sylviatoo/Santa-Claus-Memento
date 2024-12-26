@@ -3,19 +3,19 @@ import { createRoot } from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import App from "./App.tsx";
-import WelcomePage from "./Pages/WelcomePage.tsx";
 import SecondPage from "./Pages/SecondPage.tsx";
+import WelcomePage from "./Pages/WelcomePage.tsx";
 
 const router = createBrowserRouter([
   {
     element: <App />,
     children: [
       {
-        path:"/",
+        path: "/",
         element: <WelcomePage />,
       },
       {
-        path:"thedreamteam",
+        path: "thedreamteam",
         element: <SecondPage />,
       },
     ],

@@ -16,7 +16,13 @@ export default function Memento() {
           <div className="memento" key={task.index}>
             <p className="check">{task.check}</p>
             <p className="details">{task.details}</p>
-            <button className="task-button" type="button" onClick={() => removeItem(task.index)}>Fait</button>
+            <button
+              className="task-button"
+              type="button"
+              onClick={() => removeItem(task.index)}
+            >
+              Fait
+            </button>
           </div>
         ))}
       </div>

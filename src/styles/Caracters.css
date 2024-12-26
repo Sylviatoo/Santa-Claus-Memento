@@ -1,68 +1,70 @@
 .button {
-    width: 60px;
-    height: 28px;
-    margin: 20px 10px 0 20px;
-    background-color: rgb(244, 185, 103);
-    border: solid rgb(82, 67, 15);
-    border-radius: 20px;
+  width: 60px;
+  height: 28px;
+  margin: 20px 10px 0 20px;
+  background-color: rgb(244, 185, 103);
+  border: solid rgb(82, 67, 15);
+  border-radius: 20px;
 }
 
 .button:hover {
   background-color: rgb(105, 84, 27);
-  color: rgb(211, 199, 23)
+  color: rgb(211, 199, 23);
 }
 
 .caracter {
-    border: 1rem solid rgb(139, 42, 42);
-    margin: 10px;
-    background-color: rgb(233, 220, 201);
+  border: 1rem solid rgb(139, 42, 42);
+  margin: 10px;
+  background-color: rgb(233, 220, 201);
 }
 
-.name, .job {
-    display: flex;
-    justify-content: center;
-    font-weight: 500;
+.name,
+.job {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
 }
 
 .name {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .job {
-    font-size: 0.8rem;
-    padding-bottom: 5px;
-    text-align: center;}
+  font-size: 0.8rem;
+  padding-bottom: 5px;
+  text-align: center;
+}
 
 .description {
-    display:flex;
-    text-align: justify;
-    font-size: 0.8rem;
-    margin-left: 5px;
-    margin-right: 5px;
+  display: flex;
+  text-align: justify;
+  font-size: 0.8rem;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 img {
-    width: 100%;
-    padding-bottom: 5px;
+  width: 100%;
+  padding-bottom: 5px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px){
-    .caracter-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .caracter-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .caracter {
-        max-width: 40%;
-    }
+  .caracter {
+    max-width: 40%;
+  }
 }
 
 @media screen and (min-width: 768px) {
- .caracter-container {
+  .caracter-container {
     display: flex;
     flex-wrap: wrap;
- }
- .caracter {
+  }
+  .caracter {
     max-width: 30%;
- }
+  }
 }

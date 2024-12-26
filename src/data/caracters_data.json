@@ -1,258 +1,258 @@
 {
-"caracters": [
-  {
-    "name": "Mère Noël",
-    "job": "Directrice stratégique",
-    "description": "Elle gère la planification des événements de Noël, supervise la gestion des talents et des ressources humaines au niveau régional du Pôle Nord, négocie et gère les partenariats stratégiques avec d’autres artisans magiques et fournisseurs pour garantir la qualité et l’innovation des cadeaux fabriqués pour le Père Noël",
-    "filter": ["caracters"],
-    "img": "/src/assets/images/mere_noel.png",
-    "index": 1
-  },
-  {
-    "name": "Père Noël",
-    "job": "Directeur stratégique",
-    "description": "Il dirige les opérations au Pôle Nord et s'assure que chaque détail, de la fabrication des jouets à la livraison des cadeaux, soit parfaitement exécuté",
-    "filter": ["caracters"],
-    "img": "/src/assets/images/santa_claus.webp",
-    "index": 2
-  },
-  {
-    "name": "Clochette",
-    "job": "Cheffe lutins",
-    "description": "Elle coordonne les opérations au pôle Nord. Elle s'assure que les chaînes de fabrication fonctionnent sans interruption, tout en supervisant l'approvisionnement en matériaux magiques.",
-    "filter": ["caracters", "lutin"],
-    "img": "/src/assets/images/clochette.jpg",
-    "index": 3
-  },
-  {
-    "name": "Tibou",
-    "job": "Responsable adjoint lutins",
-    "description": "Il coordonne avec soin les équipes de lutins, s’assurant que chaque jouet est prêt à temps malgré les aléas de dernière minute. Gardien de l'esprit de Noël, il veille au respect du calendrier pour que la magie opère le soir de la grande tournée",
-    "filter": ["caracters", "lutin"],
-    "img": "/src/assets/images/tibou.jpg",
-    "index": 4
-  },
-  {
-    "name": "Bidule",
-    "job": "Service R&D et innovations technologiques",
-    "description": "L'expert en gadgets et en jouets technologiques modernes",
-    "filter": ["caracters", "lutin"],
-    "img": "/src/assets/images/bidule.jpg",
-    "index": 5
-  },
-  {
-    "name": "Lilie",
-    "job": "Cheffe de service des Lutins emballeurs",
-    "description": "La spécialiste des décorations et des emballages cadeaux parfaits",
-    "filter": ["caracters", "lutin"],
-    "img": "/src/assets/images/lilie.jpg",
-    "index": 6
-  },
-  {
-    "name": "Gribouille",
-    "job": "Designer lutin",
-    "description": "Le lutin créatif imagine chaque année des jouets uniques qui feront briller les yeux des enfants du monde entier. Avec son esprit inventif et sa passion pour l’innovation, il transforme des idées magiques en créations concrètes. Travaillant en étroite collaboration avec les artisans lutins, il veille à ce que chaque nouveau jouet incarne l’esprit joyeux et chaleureux de Noël",
-    "filter": ["caracters", "lutin"],
-    "img": "/src/assets/images/gribouille.png",
-    "index": 7
-  },
-  {
-    "name": "Riffle",
-    "job": "Lutin mécanicienne",
-    "description": "La maître bricoleuse, capable de réparer tout ce qui casse dans l'atelier",
-    "filter": ["caracters", "lutin"],
-    "img": "/src/assets/images/riffle.png",
-    "index": 8
-  },
-  {
-    "name": "Pipin",
-    "job": "Responsable logistique",
-    "description": "garant de la liste des enfants, vérifie qu'aucun enfant ne soit oublié",
-    "filter": ["caracters", "lutin"],
-    "img": "/src/assets/images/pipin.png",
-    "index": 9
-  },
-  {
-    "name": "Gustavo",
-    "job": "Chef cuisto",
-    "description": "Le chef cuisinier le plus talentueux et jovial, responsable de nourrir les lutins, le Père Noël, la Mère Noël et les rennes. Il est connu pour sa toque immaculée, ses talents en pâtisserie et son rire contagieux qui réchauffe les cœurs, même par grand froid (son tiramisu est à tomber dans une cheminée)",
-    "filter": ["caracters", "lutin"],
-    "img": "/src/assets/images/gustavo.jpg",
-    "index": 10
-  },
-  {
-    "name": "Galopin",
-    "job": "Responsable des rennes",
-    "description": "Il veille à leur alimentation, s'assure de leur santé et organise des entraînements pour qu'ils soient prêts pour la grande tournée de Noël. Il surveille également leur repos et leur bien-être général, afin qu'ils soient en pleine forme pour assurer un vol sans faille pendant la nuit magique",
-    "filter": ["caracters", "lutin"],
-    "img": "/src/assets/images/galopin.webp",
-    "index": 11
-  },
-  {
-    "name": "Emilien",
-    "job": "Responsable RH du Pôle Nord",
-    "description": "Emilien est en charge du recrutement des lutins, du suivi de leur bien-être et de leurs conditions de travail, veillant à maintenir un environnement harmonieux et motivant pour tous. Il organise également des formations pour développer les compétences des lutins et leur permettre d'innover dans leurs missions. Il collabore avec Mère Noël pour mettre en place des initiatives festives qui renforcent la cohésion et l'esprit de Noël au sein de l'équipe",
-    "filter": ["caracters", "lutin"],
-    "img": "/src/assets/images/emilien.webp",
-    "index": 12
-  },
-  {
-    "name": "Rudolph",
-    "job": "Renne n°1",
-    "description": "Le renne au nez rouge brillant, guide le traîneau dans les nuits les plus sombres",
-    "filter": ["caracters", "renne"],
-    "img": "/src/assets/images/rudolph.jpg",
-    "index": 13
-  },
-  {
-    "name": "Éclair",
-    "job": "Renne n°2",
-    "description": "Agile et rapide comme l'éclair, il excelle dans les manœuvres délicates",
-    "filter": ["caracters", "renne"],
-    "img": "/src/assets/images/eclair.png",
-    "index": 14
-  },
-  {
-    "name": "Furie",
-    "job": "Renne n°3",
-    "description": "Puissant et robuste, il donne de l'élan au traîneau",
-    "filter": ["caracters", "renne"],
-    "img": "/src/assets/images/furie.avif",
-    "index": 15
-  },
-  {
-    "name": "Fringant",
-    "job": "Renne n°4",
-    "description": "Toujours confiant, il inspire les autres par son assurance",
-    "filter": ["caracters", "renne"],
-    "img": "/src/assets/images/fringant.webp",
-    "index": 16
-  },
-  {
-    "name": "Comète",
-    "job": "Renne n°5",
-    "description": "D'une précision parfaite, il ne dévie jamais de sa trajectoire",
-    "filter": ["caracters", "renne"],
-    "img": "/src/assets/images/comete.png",
-    "index": 17
-  },
-  {
-    "name": "Cupidon",
-    "job": "Renne n°6",
-    "description": "Renne affectueux, il diffuse la joie et l'esprit de Noël",
-    "filter": ["caracters", "renne"],
-    "img": "/src/assets/images/cupidon.jpeg",
-    "index": 18
-  },
-  {
-    "name": "Tonnerre",
-    "job": "Renne n°7",
-    "description": "Imposant et endurant, il résiste à toutes les tempêtes",
-    "filter": ["caracters", "renne"],
-    "img": "/src/assets/images/tonnerre.avif",
-    "index": 19
-  },
-  {
-    "name": "Danseur",
-    "job": "Renne n°8",
-    "description": "Élégant et gracieux, il apporte une touche de charme au vol",
-    "filter": ["caracters", "renne"],
-    "img": "/src/assets/images/danseur.png",
-    "index": 20
-  },
-  {
-    "name": "Tornade",
-    "job": "Renne n°9",
-    "description": "Rapide et énergique, il est le plus vif de l'équipe",
-    "filter": ["caracters", "renne"],
-    "img": "/src/assets/images/tornade.jpeg",
-    "index": 21
-  }
-],
-"memento":[
-  {
-    "date": "J-5",
-    "check": "Faire le point avec les responsables lutins",
-    "details": "Vérifier l'avancement de la confection et l'emballage des derniers cadeaux",
-    "index": 22
-  },
-  {
-    "date": "J-3",
-    "check": "Le contrôle technique valide du traîneau",
-    "details": "12 points de contrôle obligatoires",
-    "index": 23
-  },
-  {
-    "date": "J-1",
-    "check": "Le traîneau magique",
-    "details": "Moyen de transport principal, souvent décrit comme brillant et rapide, capable de voler dans le ciel",
-    "index": 24
-  },
-  {
-    "date": "J-1",
-    "check": "Un sac sans fond",
-    "details": "Contient tous les cadeaux et pouvoir les transporter de manière sécurisée dans le traîneau",
-    "index": 25
-  },
-  {
-    "date": "J-1",
-    "check": "Une hotte",
-    "details": "Immense sac magique contenant des jouets, des friandises et d'autres cadeaux pour les enfants du monde entier",
-    "index": 26
-  },
-  {
-    "date": "J-1",
-    "check": "Arnachement des rennes",
-    "details": "Prévoir en plus : deux harnais magiques, deux cloches scintillantes, une selle volante, des ailes enchantées, des attaches magiques, des cuissades résistantes au froid, deux colliers lumineux, deux sacs de nourriture spéciale",
-    "index": 27
-  },
-  {
-    "date": "J-1",
-    "check": "Poudre magique",
-    "details": "Permet de voler, de rendre les rennes encore plus rapides et facilite l'accès aux maisons sans cheminée",
-    "index": 28
-  },
-  {
-    "date": "J-1",
-    "check": "Un GPS magique",
-    "details": "Tient compte de l'affluence en temps réel",
-    "index": 29
-  },
-  {
-    "date": "J-1",
-    "check": "Une horloge magique",
-    "details": "Un moyen de ralentir ou d'étirer le temps pour pouvoir livrer tous les cadeaux en une seule nuit",
-    "index": 30
-  },
-  {
-    "date": "J",
-    "check": "Les 9 rennes",
-    "details": "Bien faire l'appel pour ne pas en oublier un, chacun joue un rôle essentiel pour garantir la réussite de la livraison des cadeaux à travers le monde",
-    "index": 31
-  },
-  {
-    "date": "J",
-    "check": "Plantes, champignons, carottes",
-    "details": "Prévoir suffisamment pour l'ensemble de la tournée pour les 9 rennes",
-    "index": 32
-  },
-  {
-    "date": "J",
-    "check": "Casse croûte du père noêl",
-    "details": "Prévoir suffisamment pour l'ensemble de la tournée mais pas plus pour ne pas que le Père Noêl prenne de retard",
-    "index": 33
-  },
-  {
-    "date": "J",
-    "check": "Tenue de tournée",
-    "details": "Costume rouge avec une ceinture noire, des bottes robustes et un chapeau. Idéal pour le froid polaire et les descentes dans les cheminées",
-    "index": 34
-  },
-  {
-    "date": "J",
-    "check": "Dire au revoir à Mère Noêl",
-    "details": "Ne pas oublier de lui donner une heure précise de retour et une copie de l'itinéraire",
-    "index": 35
-  }
-]
+  "caracters": [
+    {
+      "name": "Mère Noël",
+      "job": "Directrice stratégique",
+      "description": "Elle gère la planification des événements de Noël, supervise la gestion des talents et des ressources humaines au niveau régional du Pôle Nord, négocie et gère les partenariats stratégiques avec d’autres artisans magiques et fournisseurs pour garantir la qualité et l’innovation des cadeaux fabriqués pour le Père Noël",
+      "filter": ["caracters"],
+      "img": "/src/assets/images/mere_noel.png",
+      "index": 1
+    },
+    {
+      "name": "Père Noël",
+      "job": "Directeur stratégique",
+      "description": "Il dirige les opérations au Pôle Nord et s'assure que chaque détail, de la fabrication des jouets à la livraison des cadeaux, soit parfaitement exécuté",
+      "filter": ["caracters"],
+      "img": "/src/assets/images/santa_claus.webp",
+      "index": 2
+    },
+    {
+      "name": "Clochette",
+      "job": "Cheffe lutins",
+      "description": "Elle coordonne les opérations au pôle Nord. Elle s'assure que les chaînes de fabrication fonctionnent sans interruption, tout en supervisant l'approvisionnement en matériaux magiques.",
+      "filter": ["caracters", "lutin"],
+      "img": "/src/assets/images/clochette.jpg",
+      "index": 3
+    },
+    {
+      "name": "Tibou",
+      "job": "Responsable adjoint lutins",
+      "description": "Il coordonne avec soin les équipes de lutins, s’assurant que chaque jouet est prêt à temps malgré les aléas de dernière minute. Gardien de l'esprit de Noël, il veille au respect du calendrier pour que la magie opère le soir de la grande tournée",
+      "filter": ["caracters", "lutin"],
+      "img": "/src/assets/images/tibou.jpg",
+      "index": 4
+    },
+    {
+      "name": "Bidule",
+      "job": "Service R&D et innovations technologiques",
+      "description": "L'expert en gadgets et en jouets technologiques modernes",
+      "filter": ["caracters", "lutin"],
+      "img": "/src/assets/images/bidule.jpg",
+      "index": 5
+    },
+    {
+      "name": "Lilie",
+      "job": "Cheffe de service des Lutins emballeurs",
+      "description": "La spécialiste des décorations et des emballages cadeaux parfaits",
+      "filter": ["caracters", "lutin"],
+      "img": "/src/assets/images/lilie.jpg",
+      "index": 6
+    },
+    {
+      "name": "Gribouille",
+      "job": "Designer lutin",
+      "description": "Le lutin créatif imagine chaque année des jouets uniques qui feront briller les yeux des enfants du monde entier. Avec son esprit inventif et sa passion pour l’innovation, il transforme des idées magiques en créations concrètes. Travaillant en étroite collaboration avec les artisans lutins, il veille à ce que chaque nouveau jouet incarne l’esprit joyeux et chaleureux de Noël",
+      "filter": ["caracters", "lutin"],
+      "img": "/src/assets/images/gribouille.png",
+      "index": 7
+    },
+    {
+      "name": "Riffle",
+      "job": "Lutin mécanicienne",
+      "description": "La maître bricoleuse, capable de réparer tout ce qui casse dans l'atelier",
+      "filter": ["caracters", "lutin"],
+      "img": "/src/assets/images/riffle.png",
+      "index": 8
+    },
+    {
+      "name": "Pipin",
+      "job": "Responsable logistique",
+      "description": "garant de la liste des enfants, vérifie qu'aucun enfant ne soit oublié",
+      "filter": ["caracters", "lutin"],
+      "img": "/src/assets/images/pipin.png",
+      "index": 9
+    },
+    {
+      "name": "Gustavo",
+      "job": "Chef cuisto",
+      "description": "Le chef cuisinier le plus talentueux et jovial, responsable de nourrir les lutins, le Père Noël, la Mère Noël et les rennes. Il est connu pour sa toque immaculée, ses talents en pâtisserie et son rire contagieux qui réchauffe les cœurs, même par grand froid (son tiramisu est à tomber dans une cheminée)",
+      "filter": ["caracters", "lutin"],
+      "img": "/src/assets/images/gustavo.jpg",
+      "index": 10
+    },
+    {
+      "name": "Galopin",
+      "job": "Responsable des rennes",
+      "description": "Il veille à leur alimentation, s'assure de leur santé et organise des entraînements pour qu'ils soient prêts pour la grande tournée de Noël. Il surveille également leur repos et leur bien-être général, afin qu'ils soient en pleine forme pour assurer un vol sans faille pendant la nuit magique",
+      "filter": ["caracters", "lutin"],
+      "img": "/src/assets/images/galopin.webp",
+      "index": 11
+    },
+    {
+      "name": "Emilien",
+      "job": "Responsable RH du Pôle Nord",
+      "description": "Emilien est en charge du recrutement des lutins, du suivi de leur bien-être et de leurs conditions de travail, veillant à maintenir un environnement harmonieux et motivant pour tous. Il organise également des formations pour développer les compétences des lutins et leur permettre d'innover dans leurs missions. Il collabore avec Mère Noël pour mettre en place des initiatives festives qui renforcent la cohésion et l'esprit de Noël au sein de l'équipe",
+      "filter": ["caracters", "lutin"],
+      "img": "/src/assets/images/emilien.webp",
+      "index": 12
+    },
+    {
+      "name": "Rudolph",
+      "job": "Renne n°1",
+      "description": "Le renne au nez rouge brillant, guide le traîneau dans les nuits les plus sombres",
+      "filter": ["caracters", "renne"],
+      "img": "/src/assets/images/rudolph.jpg",
+      "index": 13
+    },
+    {
+      "name": "Éclair",
+      "job": "Renne n°2",
+      "description": "Agile et rapide comme l'éclair, il excelle dans les manœuvres délicates",
+      "filter": ["caracters", "renne"],
+      "img": "/src/assets/images/eclair.png",
+      "index": 14
+    },
+    {
+      "name": "Furie",
+      "job": "Renne n°3",
+      "description": "Puissant et robuste, il donne de l'élan au traîneau",
+      "filter": ["caracters", "renne"],
+      "img": "/src/assets/images/furie.avif",
+      "index": 15
+    },
+    {
+      "name": "Fringant",
+      "job": "Renne n°4",
+      "description": "Toujours confiant, il inspire les autres par son assurance",
+      "filter": ["caracters", "renne"],
+      "img": "/src/assets/images/fringant.webp",
+      "index": 16
+    },
+    {
+      "name": "Comète",
+      "job": "Renne n°5",
+      "description": "D'une précision parfaite, il ne dévie jamais de sa trajectoire",
+      "filter": ["caracters", "renne"],
+      "img": "/src/assets/images/comete.png",
+      "index": 17
+    },
+    {
+      "name": "Cupidon",
+      "job": "Renne n°6",
+      "description": "Renne affectueux, il diffuse la joie et l'esprit de Noël",
+      "filter": ["caracters", "renne"],
+      "img": "/src/assets/images/cupidon.jpeg",
+      "index": 18
+    },
+    {
+      "name": "Tonnerre",
+      "job": "Renne n°7",
+      "description": "Imposant et endurant, il résiste à toutes les tempêtes",
+      "filter": ["caracters", "renne"],
+      "img": "/src/assets/images/tonnerre.avif",
+      "index": 19
+    },
+    {
+      "name": "Danseur",
+      "job": "Renne n°8",
+      "description": "Élégant et gracieux, il apporte une touche de charme au vol",
+      "filter": ["caracters", "renne"],
+      "img": "/src/assets/images/danseur.png",
+      "index": 20
+    },
+    {
+      "name": "Tornade",
+      "job": "Renne n°9",
+      "description": "Rapide et énergique, il est le plus vif de l'équipe",
+      "filter": ["caracters", "renne"],
+      "img": "/src/assets/images/tornade.jpeg",
+      "index": 21
+    }
+  ],
+  "memento": [
+    {
+      "date": "J-5",
+      "check": "Faire le point avec les responsables lutins",
+      "details": "Vérifier l'avancement de la confection et l'emballage des derniers cadeaux",
+      "index": 22
+    },
+    {
+      "date": "J-3",
+      "check": "Le contrôle technique valide du traîneau",
+      "details": "12 points de contrôle obligatoires",
+      "index": 23
+    },
+    {
+      "date": "J-1",
+      "check": "Le traîneau magique",
+      "details": "Moyen de transport principal, souvent décrit comme brillant et rapide, capable de voler dans le ciel",
+      "index": 24
+    },
+    {
+      "date": "J-1",
+      "check": "Un sac sans fond",
+      "details": "Contient tous les cadeaux et pouvoir les transporter de manière sécurisée dans le traîneau",
+      "index": 25
+    },
+    {
+      "date": "J-1",
+      "check": "Une hotte",
+      "details": "Immense sac magique contenant des jouets, des friandises et d'autres cadeaux pour les enfants du monde entier",
+      "index": 26
+    },
+    {
+      "date": "J-1",
+      "check": "Arnachement des rennes",
+      "details": "Prévoir en plus : deux harnais magiques, deux cloches scintillantes, une selle volante, des ailes enchantées, des attaches magiques, des cuissades résistantes au froid, deux colliers lumineux, deux sacs de nourriture spéciale",
+      "index": 27
+    },
+    {
+      "date": "J-1",
+      "check": "Poudre magique",
+      "details": "Permet de voler, de rendre les rennes encore plus rapides et facilite l'accès aux maisons sans cheminée",
+      "index": 28
+    },
+    {
+      "date": "J-1",
+      "check": "Un GPS magique",
+      "details": "Tient compte de l'affluence en temps réel",
+      "index": 29
+    },
+    {
+      "date": "J-1",
+      "check": "Une horloge magique",
+      "details": "Un moyen de ralentir ou d'étirer le temps pour pouvoir livrer tous les cadeaux en une seule nuit",
+      "index": 30
+    },
+    {
+      "date": "J",
+      "check": "Les 9 rennes",
+      "details": "Bien faire l'appel pour ne pas en oublier un, chacun joue un rôle essentiel pour garantir la réussite de la livraison des cadeaux à travers le monde",
+      "index": 31
+    },
+    {
+      "date": "J",
+      "check": "Plantes, champignons, carottes",
+      "details": "Prévoir suffisamment pour l'ensemble de la tournée pour les 9 rennes",
+      "index": 32
+    },
+    {
+      "date": "J",
+      "check": "Casse croûte du père noêl",
+      "details": "Prévoir suffisamment pour l'ensemble de la tournée mais pas plus pour ne pas que le Père Noêl prenne de retard",
+      "index": 33
+    },
+    {
+      "date": "J",
+      "check": "Tenue de tournée",
+      "details": "Costume rouge avec une ceinture noire, des bottes robustes et un chapeau. Idéal pour le froid polaire et les descentes dans les cheminées",
+      "index": 34
+    },
+    {
+      "date": "J",
+      "check": "Dire au revoir à Mère Noêl",
+      "details": "Ne pas oublier de lui donner une heure précise de retour et une copie de l'itinéraire",
+      "index": 35
+    }
+  ]
 }
