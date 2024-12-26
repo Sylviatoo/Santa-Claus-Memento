@@ -1,0 +1,87 @@
+
+.memento {
+    border: 1rem solid rgb(34, 95, 69);
+    margin: 10px;
+    background-color: rgb(240, 217, 184);
+}
+
+.check, .details {
+    font-weight: 500;
+}
+
+.check {
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+@media screen and (max-width: 480px){
+.details {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.memento-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.memento {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .task-button {  
+    width: 60px;
+    height: 25px;
+    margin: 5px;
+ }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+.memento-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.memento {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .task-button {  
+    width: 80px;
+    height: 30px;
+    margin: 20px;
+ }
+}
+
+@media screen and (min-width: 768px) {
+ .memento-container {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .memento {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    min-width: 30%;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .task-button {  
+    width: 80px;
+    height: 30px;
+    margin: 20px;
+ }
+}
